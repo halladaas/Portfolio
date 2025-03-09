@@ -5,8 +5,11 @@ This website was submitted as a HW for my Web-Applications Course.
 
 Features
 About Me: A section introducing myself.
+
 Projects: Displays some of my best work.
+
 Contact: Easy way to reach out to me.
+
 Futuristic Design: Space-themed with animations and color gradients.
 
 File Structure
