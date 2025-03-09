@@ -7,7 +7,7 @@ Features
 About Me: A section introducing myself.
 Projects: Displays some of my best work.
 Contact: Easy way to reach out to me.
-Minimalist Design: Clean and simple aesthetic.
+Futuristic Design: Space-themed with animations and color gradients.
 
 File Structure
 index.html – Main webpage structure
