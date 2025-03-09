@@ -1,0 +1,254 @@
+<!--Reference: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HallaDaas Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'> 
+</head>
+<body>
+    <div id = "container" class="container">
+        <video class="back-vid" loop autoplay muted plays-inline
+         src="videos/galaxy.mp4" type="video/mp4"></video>
+
+        <header>
+            <div class="left">
+                <img src="images/girl-icon-removebg-preview.png" alt="my logo">
+                <h1><span style="color: #72a1de">Halla</span>Daas</h1>
+            </div>
+
+            <ul>
+                <li> <a href="#info-section">About</a></li>
+                <li> <a href="#my-projects">Projects</a></li>
+                <li> <a href="#skills-section">Skills</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <a href="mailto:daashalla@gmail.com"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://github.com/halladaas" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/halladaas" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a> 
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+
+            </div>
+        </header>
+
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x' ></i>
+            </div>
+
+            <ul>
+                <li><a href="#container">Home</a></li>
+                <li> <a href="#info-section">About</a></li>
+                <li> <a href="#my-projects">Projects</a></li>
+                <li> <a href="#skills-section">Skills</a></li>
+            </ul>
+
+            <div class="social-icons">
+                <a href="mailto:daashalla@gmail.com"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://github.com/halladaas" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/halladaas" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a> 
+            </div>
+        </div>
+        <div class="blackhole-box">
+            <video loop autoplay muted plays-inline src="videos/blackhole.mp4" type="video/mp4"></video>
+        </div>
+
+        <section class="hero">
+            <div class="hero-info autoBlur">
+                <div class="hero-info-title">
+                    <i class='bx bxl-sketch'></i>Welcome to My Portfolio
+                </div>
+                <h1>Halla Daas <span class="gradient"> Portfolio </span></h1>
+                <p>I am a Junior student double majoring in Computer Science and Mathematics. Other than problem solving, I enjoy building projects that teach me new technologies. I worked on both web development and ML related projects and I would love to explore even more. Check out my projects and skills</p>
+                <button>
+                    <a href="#contact-section"><i class='bx bx-send' >Contact Me</i></a>
+                </button>
+            </div>
+            <!--
+            <div class="hero-vid-box">  
+                <video class="autoBlur" autoplay muted loop plays-inline src="videos/hero-video.mp4" type="video/mp4"></video>
+            </div>
+            -->
+            <div class="scroll-down"></div>
+        </section>
+
+        <section id = "info-section" class="info-section">
+           <h1 class="section-title autoDisplay">Hello World</h1>
+            <div class="info-cards">
+                <div class="card">
+                    <h1>Hi there, I'm Halla</h1>
+                    <p>This is an assignment for my CMP257 class. I am actually enjoying the process so far and I would certainly like to build more web applications soon. </p>
+                    <img src="images/girl-icon-removebg-preview.png" alt="card-img">
+
+                     
+                </div>
+                <div class="card">
+                    <h1>Tech Stack</h1>
+                    <p>I am familiar with languages such as: C++, Python, R, Java, HTML, CSS, JavaScript. I am also familiar with data science libraries including pandas, numpy, tensorflow, matplotlib, and scikit-learn </p>
+                
+                     <img src="images/grid2.png" alt="card-img">
+                </div>
+
+                <div class="card">
+                    <h1>I am very flexibile with time zone communications & locations</h1>
+                    <p>I am based in Dubai and open to remote work worldwide</p>
+                    <video autoplay loop muted plays-inline src="videos/glob.mp4" type="video/mp4"></video>
+                </div>
+            </div>
+        </section>
+
+        <section id ="my-projects" class="my-projects">
+            <h1 class="section-title autoDisplay">My Projects</h1>
+            <div class="project-card">
+                <div class="project-image">
+                    <video class="autoBlur" id="projectVideo1" src="videos/plant-classification-vid.mov"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadeInRight">
+                    <h1><span class="gradient">Classification</span> of Plant Diseases with ML and DL</h1>
+                    <p>
+                        For our STA401 Course Project, we worked on the classificaiton of differrent plant diseases for tomato leaves using traditional machine learning models as well as deep learning models. We then performed a comparative analysis between all the models using metrics such as accuracy, precision, f1-score, along with the confusion matrix.
+                        For training, we used the categorical crossentropy loss function and the Adam optimizer for the following models -
+                        Logistic Regression, 
+                        Random Forest, 
+                        SVM, 
+                        Artificial Neural Network, 
+                        ResNet, 
+                        and Covolutional Neural Network.
+                    </p>
+                    <button>
+                        <a href="https://github.com/halladaas/plant-disease-classification" target="_blank" rel="noopener noreferrer"><i class='bx bx-link'></i>Github Repository</a>
+                    </button>
+                </div>
+            </div>
+            <div class="project-card">
+
+                <div class="project-image">
+                    <video class= "autoBlur" id = "projectVideo2" src="videos/portfolio-vid.mov"></video>
+                </div>
+
+                <div class="project-info fadeInRight">
+                    <h1>Modern <span class="gradient">Portfolio</span> Website</h1>
+                    <p>
+                        This is my HW1 submission for CMP257. Please give it an A, professor...
+                    </p>
+                    <button><i class='bx bx-link'></i>
+                    Github Repository
+                    </button>
+                </div>
+
+            </div>
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img class= "autoBlur" src="images/jarir-web-scraper.png" alt="Plant Classification">
+                </div>
+
+                <div class="project-info fadeInRight">
+                    <h1>Jarir <span class="gradient">Web Scraper</span></h1>
+                    <p>
+                        This webscraper tracks the price of an item in Jarir everyday and stores the data in a CSV spreadsheet. It can be modified to alert the user by email if the price of the item drops.
+                    </p>
+                    <button><a href="https://github.com/halladaas/Jarir-Web-Scraper" target="_blank" rel="noopener noreferrer"><i class='bx bx-link'></i>Github Repository</a>
+                    </button>
+                </div>
+            </div>  
+        </section>
+
+        <section id="skills-section" class="skills-section">
+            <h1 class="section-title autoDisplay"> My Skills</h1>
+
+            <div class="skills-box">
+                <img src="images/digital brain.png" 
+                alt="skills-image" class="skills-image">
+                
+                <div class="coder ">
+                    <h1 class="gradient autoDisplay"> 
+                    Coder  <i class='bx bx-code-block'></i> </i>
+                    </h1>
+                    <p>I'm skilled in C++, Python, HTML, CSS, JavaScript, Java and frameworks like BoostStrap.  </p>
+                </div>
+
+                <div class="dataanalyst ">
+                    <h1 class="gradient autoDisplay"> 
+                    Data Analyst <i class='bx bxs-analyse' ></i>
+                    </h1>
+                    <p>I have worked on multiple data analysis projects using tools such as Python, R, and PowerBI as well as libraries like pandas, numpy, tensorflow, scikit-learn, matplotlib, and more. I have also explored computer vision with openCV as well object detection models like Yolo.  </p>
+                </div>
+                
+                <div class="slider" reverse="true" style="
+                    --width: 100px;
+                    --height: 100px;
+                    --quantity: 8;
+                    ">
+                    <div class="list">
+                        <div class="item" style="--position: 1">
+                            <img src="images/1.png" alt="slider-img">
+                        </div>
+                        <div class="item" style="--position: 2">
+                            <img src="images/2.png" alt="slider-img">
+                        </div>
+                        <div class="item" style="--position: 3">
+                            <img src="images/3.png" alt="slider-img">
+                        </div>
+                        <div class="item" style="--position: 4">
+                            <img src="images/4.png" alt="slider-img">
+                        </div>
+                        <div class="item" style="--position: 5">
+                            <img src="images/5.png" alt="slider-img">
+                        </div>
+                        <div class="item" style="--position: 6">
+                            <img src="images/6.png" alt="slider-img">
+                        </div>
+                        <div class="item" style="--position: 7">
+                            <img src="images/7.png" alt="slider-img">
+                        </div>
+                        <div class="item" style="--position: 8">
+                            <img src="images/8.png" alt="slider-img">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id= "contact-section" class="contact-section">
+            <h1 class="section-title autoDisplay">
+                Let's Talk
+            </h1>
+            <div class="social-box autoBlur">
+                <a href="mailto:daashalla@gmail.com"><i class='bx bxl-gmail' ></i> daashalla@gmail.com</a>
+                <a href="https://www.linkedin.com/in/halladaas" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i>halladaas</a> 
+            </div>
+
+            <div class="contact-box autoBlur">
+                <p>Whether you're looking to build a new website, improve your existing platform, or bring a unique project to file, i'm here to help.</p>
+                <p>Full Name</p>
+                <input type="text" placeholder="Your Full Name">
+
+                <p>Email Address</p>
+                <input type="text" placeholder="Your Email">
+
+                <p>Your Message</p>
+                <input class="input-message" type="text" placeholder="Type Your Message...">
+                
+                <button><i class='bx bxs-send' ></i>Send Message</button>
+                
+            </div>
+        </section>
+
+        <footer>
+            <h1>Copyright © Halla Daas</h1>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
