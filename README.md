@@ -23,5 +23,6 @@ git clone https://github.com/your-username/Portfolio.git
 Open index.html in a browser.
 
 Future Improvements
-Integrate a databse to collect form entries
+Integrate a database to collect form entries
 Include a blog section
+Host it online
